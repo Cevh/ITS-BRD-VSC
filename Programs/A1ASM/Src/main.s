@@ -34,7 +34,7 @@ main
 
     ; Set LED
     STRB    R0, [R6]            ; switch on LED D08 and D09 in one step
-    b .
+      
 
     ; --- Original sequence (merged into the line above) ---
     ; STRB  R2, [R6]    ; switch on LED D14
